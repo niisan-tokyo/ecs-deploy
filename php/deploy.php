@@ -56,4 +56,5 @@ $res = $client->updateService([
     'taskDefinition' => $new_def['taskDefinition']['taskDefinitionArn']
 ]);
 
-var_dump($res);
+//var_dump($res);
+echo "process end successfully!!!";
