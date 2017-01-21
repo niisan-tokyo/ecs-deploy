@@ -1,0 +1,8 @@
+{
+    "name": "niisan/ecsdeploy",
+    "type": "librar",
+    "license": "MIT",
+    "require": {
+        "aws/aws-sdk-php-resources": "^0.3.0"
+    }
+}
