@@ -16,13 +16,16 @@ You may need to set following environment variables:
 Usage is following:
 
 ```
-php deploy.php -c <CLUSTER_NAME> -s <SERVICE_NAME> -i <IMAGE_NAME> -t <TAG_NAME> -r <REGION_NAME>
+php deploy.php -c <CLUSTER_NAME> -s <SERVICE_NAME> -n <IMAGE_NAMESPACE> -f <FAMILY> -t <TAG_NAME> -r <REGION_NAME>
 ```
+We can set more than one parameters in FAMILY field.
 
-Or we can set environment variables:
+We can also set environment variables:
 
 - CLUSTER_NAME
 - SERVICE_NAME
-- IMAGE_NAME
+- IMAGE_NAMESPACE
 - TAG_NAME
 - REGION_NAME
+
+But we must set family field in command options.
